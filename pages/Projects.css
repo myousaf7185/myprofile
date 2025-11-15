@@ -1,0 +1,81 @@
+.projects-container {
+  padding: 50px;
+  background-color: #121212; /* Dark background */
+  color: white; /* Light text color */
+  min-height: 100vh; /* Full height */
+}
+
+.projects-title {
+  text-align: center;
+  margin-bottom: 40px;
+  font-size: 2.5em;
+}
+
+.projects-list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center; /* Center the project cards */
+}
+
+.project-card {
+  background-color: #1e1e1e; /* Card background */
+  border-radius: 12px; /* Rounded corners */
+  box-shadow: 0 4px 8px rgba(118, 98, 190, 0.2); /* Shadow effect */
+  margin: 8px; /* Space between cards */
+  overflow: hidden; /* Ensure rounded corners are respected */
+  transition: transform 0.3s; /* Smooth hover effect */
+  flex: 0 1 calc(25% - 20px); /* Responsive width */
+  max-width: 300px; /* Max width for larger screens */
+}
+
+.project-card:hover {
+  transform: translateY(-5px); /* Slight lift on hover */
+}
+
+.project-thumbnail {
+  width: 100%; /* Full width */
+  height: 150px; /* Fixed height */
+  object-fit: cover; /* Cover the area */
+}
+
+.project-title {
+  font-size: 1.5em;
+  margin: 10px;
+}
+.project-using{
+  font-size: 1.3em;
+  color: rgb(127, 246, 255);
+  margin: 10px;
+}
+.project-description {
+  padding: 0 10px 10px;
+}
+
+.project-link {
+  display: block;
+  margin: 10px;
+  padding: 10px;
+  text-align: center;
+  background-color: #f1c40f; /* Button color */
+  color: black; /* Button text color */
+  text-decoration: none; /* Remove underline */
+  border-radius: 5px; /* Rounded button */
+  transition: background-color 0.3s; /* Smooth hover effect */
+}
+
+.project-link:hover {
+  background-color: #d4ac0d; /* Darker shade on hover */
+}
+
+/* Responsive Styles */
+@media (max-width: 768px) {
+  .project-card {
+    flex: 0 1 calc(50% - 20px); /* 2 cards per row on medium screens */
+  }
+}
+
+@media (max-width: 480px) {
+  .project-card {
+    flex: 0 1 100%; /* 1 card per row on small screens */
+  }
+}

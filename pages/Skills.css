@@ -1,0 +1,38 @@
+.skills-container {
+  padding: 50px;
+  background-color: #121212; /* Dark background */
+  color: white; /* Light text color */
+  min-height: 100vh; /* Full height */
+}
+
+.skills-title {
+  text-align: center;
+  margin-bottom: 40px;
+  font-size: 2.5em;
+}
+
+.skills-list {
+  display: flex;
+  flex-wrap: wrap; /* Allow wrapping to the next line */
+  justify-content: center; /* Center the progress bars */
+}
+
+.progress-bar {
+  flex: 0 0 22%; /* Each bar takes up approximately 22% of the row (4 in a row) */
+  margin: 10px; /* Space between progress bars */
+  display: flex;
+  justify-content: center; /* Center the circular progress bars */
+}
+
+/* Ensure the circular progress bar is responsive */
+.circular-progress-bar {
+  width: 50%; /* Make progress bars responsive */
+  max-width: 10px; /* Limit maximum width */
+}
+.skills-title {
+  text-align: center;
+  margin-bottom: 40px;
+  font-size: 2.5em;
+  font-family: 'Poppins', sans-serif; /* Apply the new font */
+  font-weight: 600; /* Bold font weight */
+}

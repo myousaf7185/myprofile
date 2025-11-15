@@ -1,0 +1,59 @@
+.experience-container {
+    padding:  50px;
+    background-color: #121212; /* Dark background */
+    color: white; /* Light text color */
+    min-height: 0vh; /* Full height */
+    min-width: 100%;
+    
+  }
+  
+  .experience-title {
+    text-align: center;
+    margin-bottom: 40px;
+    font-size: 2.5em;
+    color: rgb(150, 176, 201);
+  }
+  
+  .experience-list {
+    display: flex;
+    flex-direction: row; /* Stack experience cards vertically */
+    align-items: center; /* Center cards horizontally */
+  }
+  
+  .experience-card {
+    background-color: #1e1e1e; /* Card background */
+    border-radius: 15px; /* Rounded corners */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Shadow effect */
+    margin: 20px;
+    padding: 20px;
+    width: 80%; /* Full width for smaller screens */
+    max-width: 500px; /* Max width for larger screens */
+    transition: transform 0.3s; /* Smooth hover effect */
+  }
+  
+  .experience-card:hover {
+    transform: translateY(-5px); /* Slight lift on hover */
+  }
+  
+  .experience-title {
+    font-size: 1.8em;
+    margin-bottom: 10px;
+  }
+  
+  .experience-company {
+    font-size: 1.2em;
+    color: #f1c40f; /* Highlight company name */
+    margin: 5px 0;
+  }
+  
+  .experience-duration {
+    font-size: 1em;
+    margin: 5px 0;
+    color: #bbb; /* Lighter color for duration */
+  }
+  
+  .experience-description {
+    font-size: 1em;
+    margin-top: 10px;
+  }
+  

@@ -1,0 +1,30 @@
+.social-icons a {
+    color: white; /* Icon color */
+    font-size: 30px; /* Icon size */
+    margin: 10px; /* Spacing between icons */
+    transition: transform 0.3s, color 0.3s; /* Smooth transitions */
+  }
+  
+  .social-icons a:hover {
+    color: #f1c40f; /* Change color on hover */
+    transform: scale(1.2); /* Slightly enlarge icon on hover */
+  }
+  
+  .social-icons a:active {
+    transform: scale(1); /* Return to normal size on click */
+  }
+  .navbar {
+    font-family: 'Roboto', sans-serif; /* Change to your chosen font */
+    font-weight: 500; /* Medium weight for navbar items */
+  }
+  
+  .nav-link {
+    color: white; /* Adjust color as needed */
+    padding: 15px 20px; /* Space around links */
+    transition: color 0.3s; /* Smooth color change on hover */
+  }
+  
+  .nav-link:hover {
+    color: #f1c40f; /* Change color on hover */
+  }
+  

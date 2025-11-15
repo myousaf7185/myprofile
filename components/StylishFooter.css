@@ -1,0 +1,14 @@
+footer {
+    position: relative;
+    overflow: hidden;
+  }
+  
+  .social-icons a {
+    font-size: 1.5rem;
+    transition: color 0.3s;
+  }
+  
+  .social-icons a:hover {
+    color: #007bff; /* Change color on hover */
+  }
+  

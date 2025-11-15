@@ -1,0 +1,13 @@
+.circular-progress-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 20px;
+  }
+  
+  .progress-label {
+    margin-top: 10px;
+    color: white; /* Text color */
+    font-size: 1.2em;
+  }
+    
